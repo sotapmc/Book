@@ -1,0 +1,30 @@
+{
+  "name": "book",
+  "version": "1.0.0",
+  "description": "Official development guide for sotapmc",
+  "main": "sw.js",
+  "dependencies": {
+    "docsify-cli": "^4.4.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "serve": "docsify serve ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sotapmc/Book.git"
+  },
+  "keywords": [
+    "tutorial",
+    "wiki",
+    "docsify",
+    "development-guide",
+    "book"
+  ],
+  "author": "sotapmc",
+  "license": "MPL-2.0",
+  "bugs": {
+    "url": "https://github.com/sotapmc/Book/issues"
+  },
+  "homepage": "https://github.com/sotapmc/Book#readme"
+}
