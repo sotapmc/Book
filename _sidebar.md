@@ -2,6 +2,8 @@
 - Wiki
   - [介绍](/wiki/index.md)
   - [基本编写规范](/wiki/manual.md)
+  - [贡献指南](/wiki/contribution.md)
+  - [贡献者](/wiki/contributors.md)
 - Oasis
   - [介绍](/oasis/index.md)
   - [功能概述](/oasis/standard.md)
