@@ -8,4 +8,4 @@
 
 ## 贡献
 
-贡献流程同 SotapWiki，修改完毕后提交 Pull Request 即可。
+贡献流程同 SotapWiki，修改完毕后提交 Pull Request 即可。如果您对这些不了解，可以查看[此处](/wiki/contribution.md)的教程。
