@@ -2,6 +2,7 @@
 - Wiki
   - [介绍](/wiki/index.md)
   - [基本编写规范](/wiki/manual.md)
+  - [关于城镇](/wiki/about-realms.md)
 - Oasis
   - [介绍](/oasis/index.md)
   - [功能概述](/oasis/standard.md)
