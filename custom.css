@@ -8,6 +8,7 @@ a {
     display: inline-block;
     text-decoration: none;
     transition: all .3s;
+    font-weight: normal !important;
 }
 
 a:hover {
