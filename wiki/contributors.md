@@ -2,16 +2,17 @@
 
 Wiki 的内容更新和新内容的开拓离不开曾经或现在为 Wiki 做出了贡献的玩家。是他们的积极成就了 Wiki 的完整与规范。以下为曾经或正在为 Wiki 做贡献的服务器玩家：
 
-*排名不分前后，下面列出的为贡献者 Minecraft 游戏 ID*
+*排名不分前后，下面列出的为贡献者 Minecraft 游戏 ID，标 ⭐ 的为具有免审权限的贡献者*
 
-- Constant137
-- MikeW138
-- Knight_T
+- Constant137 ⭐
+- MikeW138 ⭐
+- Knight_T ⭐
 - DrLee_lihr
 - 123-jk
 - WindSpiritSR
-- Kelegele
+- Kelegele ⭐
 - Jimmy0w0
+- He1D1
 
 **让我们感谢他们的贡献与付出的精力！**
 
