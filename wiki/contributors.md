@@ -9,7 +9,7 @@ Wiki 的内容更新和新内容的开拓离不开曾经或现在为 Wiki 做出
 - Knight_T ⭐
 - DrLee_lihr
 - 123-jk
-- WindSpiritSR
+- WindSpiritSR ⭐
 - Kelegele ⭐
 - Jimmy0w0
 - He1D1
