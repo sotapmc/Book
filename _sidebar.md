@@ -4,3 +4,6 @@
   - [贡献指南](/wiki/contribution.md)
   - [关于城镇](/wiki/about-realms.md)
   - [贡献者](/wiki/contributors.md)
+- Monologue
+  - [介绍](/monologue/index.md)
+  - [部署](/monologue/deployment.md)
