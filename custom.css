@@ -61,3 +61,7 @@ body {
     border-radius: 2px;
     line-height: 1.6rem;
 }
+
+h1 a span, h2 a span, h3 a span, .pagination-item-title {
+    font-weight: bolder !important;
+}
