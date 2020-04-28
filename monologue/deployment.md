@@ -33,11 +33,12 @@ sudo apt install libapache2-mod-wsgi
 - `flask-restful`
 - `pymysql`
 - `markdown`
+- `pyyaml`
 
 如果你追求快速，可以考虑直接全局使用 `pip` 安装：
 
 ```bash
-pip install flask flask-cors flask-restful pymysql markdown
+pip install flask flask-cors flask-restful pymysql pyyaml markdown
 ```
 
 如果你有其它的需求，例如需要模式化管理自己的项目，那么你可以使用*虚拟空间*的方法。虚拟空间的激活脚本位于 `@/backend/mono-back/Scripts/activate_this`。激活之后即可在虚拟空间内安装。
@@ -87,6 +88,10 @@ from App import app as application
 `wsgi` 文件的内容中有两个可变量，一个是 `/path/to/activate_this.py`，这个路径需要指向一个 `activate_this.py` 文件。默认情况下，这个文件处于 `@/backend/mono-back/Scripts/activate_this.py`，直接将该文件的完整绝对路径填写上去即可。另一个是 `/path/to/backend/root` 需要指向后端根目录，即 `@/backend/mono-back`，将该目录的绝对路径填写上去即可。
 
 ?> ✅ 当然，你也可以根据自己的需求编写自己的 `wsgi` 文件。为了避免新版本冲突，请妥善保管文件内容。
+
+上面的所有都完成之后，你需要回到后端的目录里，找到 `config.example.yml`（也就是后端的配置文件），将里面的内容改成你想要的样子，然后重命名为 `config.yml`。
+
+!> 无论如何都必须进行重命名，否则主程序将因为无法找到配置文件而无法运行。
 
 一切就绪以后，输入 `a2ensite backend.conf && systemctl reload apache2` 启用该站点并重载 Apache，后端就部署完成了。此时访问此虚拟主机所指向的域名和端口，便可以正常使用了。
 
