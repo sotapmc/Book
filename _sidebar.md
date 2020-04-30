@@ -7,3 +7,4 @@
 - Monologue
   - [介绍](/monologue/index.md)
   - [生产化部署](/monologue/production.md)
+  - [开发部署](/monologue/development.md)
