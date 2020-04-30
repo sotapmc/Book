@@ -19,7 +19,7 @@ Monologue 能用来做些什么？想象一下，如果此时我们有一个项�
 
 Monologue 是一个简单的前后端分离项目，前端使用 Vue.js 进行开发，后端则使用 Python 的 Flask 开发 API。通过 `POST` 和 `GET` 操作对后端进行通讯。目前通讯还没有可靠的验证策略，不建议投入隐私项目中使用。
 
-若要进一步了解如何进行部署，可以参考[部署](/monologue/deployment.md)章节。
+若要进一步了解如何进行部署，可根据需要选择[开发部署](/monologue/development.md)或[生产化部署](/monologue/production.md)。
 
 ## 协议
 
