@@ -1,10 +1,12 @@
-# 部署
+# 生产化部署
 
-本章内容主要探索如何部署 Monologue。本文档中演示的系统和软件环境分别为
+本文章内容主要叙述 Monologue 的生产化部署方式。文中所有流程的演示环境是
 
 - Ubuntu 18.04 LTS
 - Apache 2.4
-- Python 2.7
+- Python 2.7\*
+
+**\*** Monologue 基于 Python 3 编写，但是在 Python 2 上大概率仍然能运行。
 
 !> 本文档中暂无 Nginx 相关教程，如果你熟悉，可以考虑给[本项目](//github.com/sotapmc/Book)发送 Pull Request。
 
@@ -28,12 +30,14 @@ sudo apt install libapache2-mod-wsgi
 
 安装后会自动帮你 `enable`。成功以后，我们需要安装项目的依赖。目前本项目依赖于如下几大库
 
-- `flask`
-- `flask-cors`
-- `flask-restful`
-- `pymysql`
-- `markdown`
-- `pyyaml`
+|库名|用途|
+|:-:|:-:|
+|`flask`|Flask 框架，整个后端的基础框架|
+|`flask-cors`|Flask CORS 解决方案|
+|`flask-restful`|Flask RESTful API 解决方案|
+|`pymysql`|Python MySQL 支持对数据库的访问|
+|`pyyaml`|Python Yaml 解析配置文件（`.yml` 文件）|
+|`markdown`|Python Markdown 解析 Markdown 语法|
 
 如果你追求快速，可以考虑直接全局使用 `pip` 安装：
 
