@@ -6,4 +6,4 @@
   - [贡献者](/wiki/contributors.md)
 - Monologue
   - [介绍](/monologue/index.md)
-  - [部署](/monologue/deployment.md)
+  - [生产化部署](/monologue/production.md)
