@@ -39,7 +39,7 @@ npm install
 后端的依赖：
 
 ```bash
-pip install flask flask-cors flask-restful pymysql pyyaml markdown
+pip install flask flask-cors flask-restful pymysql pyyaml markdown pymdown-extensions
 ```
 
 如有需要，可以使用 `pip` 进行安装。
