@@ -4,9 +4,9 @@
 
 - Ubuntu 18.04 LTS
 - Apache 2.4
-- Python 2.7\*
+- Python 3.7
 
-**\*** Monologue 基于 Python 3 编写，但是在 Python 2 上大概率仍然能运行。
+**\*** Monologue 不支持 Python 2 环境运行。
 
 !> 本文档中暂无 Nginx 相关教程，如果你熟悉，可以考虑给[本项目](//github.com/sotapmc/Book)发送 Pull Request。
 
@@ -22,10 +22,10 @@ git clone https://github.com/sotapmc/Monologue.git
 
 ## 后端
 
-后端部署起来略显复杂，所以我们先讲如何部署后端。由于后端是用 Python 开发的，所以无法像 PHP 那样直接挂载到目录下就可访问。Python 开发的后端目前比较主流的部署办法是使用 WSGI。要开始，我们需要安装 WSGI。在 Apache 平台上，只需要手动安装 `libapache2-mod-wsgi` 包即可。
+后端部署起来略显复杂，所以我们先讲如何部署后端。由于后端是用 Python 开发的，所以无法像 PHP 那样直接挂载到目录下就可访问。Python 开发的后端目前比较主流的部署办法是使用 WSGI。要开始，我们需要安装 WSGI。在 Apache 平台上，只需要手动安装 `libapache2-mod-wsgi-py3` 包即可。
 
 ```bash
-sudo apt install libapache2-mod-wsgi
+sudo apt-get install libapache2-mod-wsgi-py3
 ```
 
 安装后会自动帮你 `enable`。成功以后，我们需要安装项目的依赖。目前本项目依赖于如下几大库
