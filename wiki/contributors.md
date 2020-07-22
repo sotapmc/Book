@@ -1,22 +1,8 @@
 # 贡献者列表
 
-Wiki 的内容更新和新内容的开拓离不开曾经或现在为 Wiki 做出了贡献的玩家。是他们的积极成就了 Wiki 的完整与规范。以下为曾经或正在为 Wiki 做贡献的服务器玩家：
+[前往 GitHub 查看所有贡献者](https://github.com/sotapmc/SotapWiki/graphs/contributors)
 
-*排名不分前后，下面列出的为贡献者 Minecraft 游戏 ID，标 ⭐ 的为具有免审权限的贡献者*
-
-- Constant137 ⭐
-- MikeW138 ⭐
-- Knight_T ⭐
-- DrLee_lihr
-- 123-jk
-- WindSpiritSR ⭐
-- Kelegele ⭐
-- Jimmy0w0
-- He1D1
-
-**让我们感谢他们的贡献与付出的精力！**
-
-!> 以下内容中含有字符画，在小型屏幕上可能无法正常显示。
+**感谢所有曾经为 SoTap Wiki 做过贡献、付出过精力的玩家和管理成员！**
 
 ```
  _____     _____           
