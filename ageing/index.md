@@ -6,7 +6,7 @@
 
 ## 基本概念
 
-<figure>
+<figure style="text-align: center">
     <img src="https://i.loli.net/2020/07/25/UMwNLlBk23hHKWj.png">
     <figcaption>遵循 CC BY-NC-ND 4.0</figcaption>
 </figure>
