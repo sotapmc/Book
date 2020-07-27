@@ -17,7 +17,7 @@ $$ A=\\{ \underbrace{0, 1, 2, 3, 4}_5, \underbrace{5, 6, 7, 8, 9}_5, \underbrace
 为了便于后文论述，在这里引入一个量**区间位** $i$ 用来表示某年龄 $n$ 所在的区间位置。$i$ 的值从 $0$ 开始。例如，当 $r=5, n=1$ 时，易知 $i=0$。一般地，$i$ 可以通过如下计算得到
 
 $$ i=f(n)=\begin{cases}
-    0 & (0\lt{n}\lt{r})\\\\
+    0 & (0\leq{n}\lt{r})\\\\
     \frac{n-(n\mathrm{mod}r)}{r} & (n\gt{r})
 \end{cases}$$
 
@@ -48,7 +48,7 @@ growth_step_value: # 正整数
 引入 $s$ 后，我们可以计算 $e_x$ 的值。一般地，我们有
 
 $$e_{x}=g(n)=\begin{cases}
-    e_b & {0\lt{n}\lt{r}}\\\\
+    e_b & {0\leq{n}\lt{r}}\\\\
     e_b+si & {n\gt{r}}
 \end{cases}$$
 
