@@ -12,6 +12,7 @@
 - **Ageing Ecosystem**
   - [介绍](/ageing/index.md)
   - [配置文件](/ageing/config.md)
+  - [年龄增长原理](/ageing/growth.md)
 - **Git/GitHub**
   - [GitHub: 入门](github/github_welcome.md)
   - [Git: 开始你的第一次提交](github/git_first_commit.md)

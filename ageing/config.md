@@ -12,7 +12,7 @@
 
 上述列表中被~~划去~~的内容属于还未实现但终会实现的内容。这些内容都会被添加到配置文件中供给设置，这样，你便可以设置出自己想要的效果。下面，我们会一一列举配置文件中存在的各个项，展示其格式并解释其作用。
 
-### `age-commands`
+### age-commands
 
 ```yml
 age_commands:
@@ -27,7 +27,7 @@ age_commands:
 
 规定**所有**玩家达到指定的年龄以后所要执行的指令。允许使用[占位符](#占位符)。例如，可以选择在玩家 20 岁时执行 `give %username% diamond_block 10` 作为奖励。所要执行的指令是没有限制的，因此你既可以执行对服务器全局都有影响的指令，也可以通过占位符执行针对性的指令。
 
-### `max-age`
+### max-age
 
 ```yml
 max_age: # 正整数
@@ -37,7 +37,7 @@ max_age: # 正整数
 
 规定玩家所能成长到的最高年龄，必须为正整数，且最高不能超过 Java 的整数精度限制（$2^{31} - 1 = 2147483647$）。
 
-### `limited-commands`
+### limited-commands
 
 ```yml
 limited_commands:
@@ -47,7 +47,7 @@ limited_commands:
 
 对用户可用的指令进行限制。格式中，应以指令头作为键，以使用该指令所需达到的最低年龄作为值。例如 `help: 20` 代表须最少 20 岁才可执行 `help`，否则该指令将会被屏蔽并给出 `You are not old enough to ...` 警告。需要注意的是，若你规定了一个不存在指令的最低年龄，Ageing 仍然会对未达到年龄的人给予警告。例如 `wobushizhendezhiling: 10` 将会导致未满 10 岁用户执行 `/wobushizhendezhiling` 后收到警告（而不是提示这个指令不存在）。
 
-### `command-lowest-limit`
+### command-lowest-limit
 
 ```yml
 command_lowest_limit: # 整数
@@ -57,7 +57,7 @@ command_lowest_limit: # 整数
 
 <small>* 不绝对。请阅读下方的 <code>ignored-commands</code> 了解更多。</small>
 
-### `ignored-commands`
+### ignored-commands
 
 ```yml
 ignored_commands:
@@ -67,6 +67,10 @@ ignored_commands:
 ```
 
 规定不参与年龄限制的指令。处于该列表中的指令将对所有年龄的用户可用。该配置的优先级高于 `limited-commands` 和 `command-lowest-limit`。任何出现在该列表中的指令，都不会受到前两者的限制。
+
+### growth-*
+
+详见[年龄增长原理](/ageing/growth.md)。
 
 ## 占位符
 
