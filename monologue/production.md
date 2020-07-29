@@ -58,7 +58,7 @@ cd /etc/apache2/sites-available
 
 我们此时假设站点的配置文件名称为 `backend.conf`。由于我们部署的是 WSGI，所以我们需要写上 WSGI 相关的设置，这需要路径配合。下面是一个参考：
 
-```apache
+```apacheconf
 <Virtualhost *:80>
     ServerName example.com
 
@@ -126,7 +126,7 @@ npm run build
 
 如果你愿意将后端和前端部署在不同的位置上，推荐使用反向代理。在前端的配置文件里加入如下语句：
 
-```apache
+```apacheconf
 SSLProxyEngine On
 ProxyPass /api/ <location>/api/
 ProxyPassReverse /api/ <location>/api/
