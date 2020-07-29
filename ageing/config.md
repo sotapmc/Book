@@ -92,8 +92,8 @@ ignored_commands:
 
 ### 配置文件占位符
 
-- `%playername%` - 用户名
-- `%uuid%` - 用户的 UUID
+- `%playername%` - 玩家名
+- `%uuid%` - 玩家的 UUID
 
 这些占位符只能在配置文件 `config.yml` 中使用。
 
