@@ -16,7 +16,7 @@
 
 1. 安装 [Ageing](//github.com/sotapmc/Ageing) 和 [MissionTap](//github.com/sotapmc/MissionTap) 到 `plugins` 目录中，重新启动服务器。
 2. 打开 MissionTap 的数据目录，编辑 `daily-missions.yml` 和 `weekly-missions.yml`，在其中写入任务。具体的格式可以参考[任务格式]()。
-3. 再次重启服务器，*或*执行指令 `/mt regen` 重新抽取任务。
+3. 再次重启服务器。
 4. 至此即可开始正常使用。可用的指令可查看[指令列表]()。
 
 ## 目录
