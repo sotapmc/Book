@@ -13,6 +13,12 @@
   - [介绍](/ageing/index.md)
   - [配置文件](/ageing/config.md)
   - [年龄增长原理](/ageing/growth.md)
+- **MissionTap**
+  - [介绍](/missiontap/index.md)
+  - [配置文件](/missiontap/config.md)
+  - [任务逻辑](/missiontap/mission.md)
+  - [任务格式](/missiontap/structure.md)
+  - [指令列表](/missiontap/commands.md)
 - **Git/GitHub**
   - [GitHub: 入门](github/github_welcome.md)
   - [Git: 开始你的第一次提交](github/git_first_commit.md)
