@@ -134,3 +134,36 @@ special-missions: false
 这是一个手动开关，用来设置是否允许玩家查看、接受和完成特殊任务。特殊任务的内容是静态的，且不会被随机抽取，也没有过期时间。特殊任务一经打开，玩家可以在菜单中看到特殊任务，并接受它们。
 
 !> 此项关闭时，所有特殊任务的进度记录将会被暂停。即使有的玩家仍然有没有完成的特殊任务，也无法继续完成，且无法领取奖励。
+
+## 配置文件原文
+
+插件在进行数据操作的过程中可能会将配置文件中的注释抹去，该问题*可能*在未来解决。配置文件的原文如下
+
+```yml
+# 完整解释参见 https://book.sotap.org/#/missiontap/config
+# 每周任务刷新时间，范围 1~7，对应星期日~星期六
+weekly-refresh-time: 1
+# 每日任务刷新时间，范围 0~23，对应二十四小时
+daily-refresh-time: 14
+# 周任务抽取数量
+weekly-mission-amount: 4
+# 日任务抽取数量
+daily-mission-amount: 2
+# 是否允许已接受的周任务只在月末清空
+# 若为 false，则随周任务刷新而清空（每周一次）
+allow-tarriance: false
+# 是否需要玩家接受任务后才开始计算
+require-acceptance: false
+# 是否需要玩家提交后才会获得奖励
+require-submittion: false
+# 是否允许玩家取消任务
+allow-cancelling: false
+# 是否允许重复接受同一任务
+allow-multiple-acceptance: true
+# 再次接受同一任务的冷却时间，若不需要冷却则设为 0，单位秒
+multiple-acceptance-cooldown: 0
+# 手动开关：是否显示特殊任务
+special-missions: false
+```
+
+原文会随插件本身进行更新，若发现该原文不符合新版本，请多刷新本页几遍或者[提交 Issue](https://github.com/sotapmc/MissionTap/issues)。
