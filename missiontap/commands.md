@@ -23,7 +23,7 @@
 |指令|权限|含义|
 |:-:|:-:|:-:|
 |`player <玩家名> clear-submittion`|`.player`|清空玩家的任务提交记录|
-|`player <玩家名> clear-missions daily|weekly|special|all`|`.player`|清空玩家指定的任务数据|
+|`player <玩家名> clear-missions <daily\|weekly\|special\|all>`|`.player`|清空玩家指定的任务数据|
 
 ## 权限
 
