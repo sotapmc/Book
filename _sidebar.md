@@ -13,6 +13,7 @@
   - [介绍](/ageing/index.md)
   - [配置文件](/ageing/config.md)
   - [年龄增长原理](/ageing/growth.md)
+  - [指令列表](/ageing/commands.md)
 - **MissionTap**
   - [介绍](/missiontap/index.md)
   - [配置文件](/missiontap/config.md)
