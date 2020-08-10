@@ -37,6 +37,8 @@
 |`special`|`/mt special`, `/mt s`|普通玩家|✔|
 |`reload`|`/mt reload`|管理员|-|
 |`init`|`/mt init`|管理员|-|
+|`enable`|`/mt enable`|管理员|-|
+|`disable`|`/mt disable`|管理员|-|
 |`all`|全部|管理员|-|
 
 默认给予的权限，在没有使用权限管理插件（如 LuckPerms）专门设置之前，会尽可能默认给到指定玩家。如果发现默认情况下的权限异常，请尝试手动设置。对于 `missiontap.all` 权限，一旦设置为 `true`，指定人群或个人则可以访问 MissionTap 的所有指令。
