@@ -32,17 +32,11 @@ npm install
 
 ## 后端部署
 
-后端部署比较容易，实际上，由于项目自带了相关的依赖，因此通常情况下不需要自己安装依赖
-
-!> 如果提示找不到依赖，则需要手动安装
-
 后端的依赖：
 
 ```bash
-pip install flask flask-cors flask-restful pymysql pyyaml markdown pymdown-extensions
+pip install -r requirements.txt
 ```
-
-如有需要，可以使用 `pip` 进行安装。
 
 依赖就绪以后，前往后端根目录（前文中提到的 `mono-back` 文件夹），找到 `config.example.yml` 文件，将其内容改为符合当前环境的内容，并重命名为 `config.yml`。随后执行：
 
@@ -50,7 +44,7 @@ pip install flask flask-cors flask-restful pymysql pyyaml markdown pymdown-exten
 python ./App.py
 ```
 
-即可启动一个后端服务器。通常情况下，该服务器位于 `localhost:5000`，前端的 `vue.config.js` 里已经有了相关的设置。
+即可启动一个后端服务器。通常情况下，该服务器位于 `localhost:5000`，前端的 `vue.config.js` 里已经有了相关的设置（`proxyTable` 等）。
 
 ## 完成
 

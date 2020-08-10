@@ -43,7 +43,7 @@ sudo apt-get install libapache2-mod-wsgi-py3
 如果你追求快速，可以考虑直接全局使用 `pip` 安装：
 
 ```bash
-pip install flask flask-cors flask-restful pymysql pyyaml markdown pymdown-extensions
+pip install -r requirements.txt
 ```
 
 如果你有其它的需求，例如需要模式化管理自己的项目，那么你可以使用*虚拟空间*的方法。虚拟空间的激活脚本位于 `@/backend/mono-back/Scripts/activate_this`。激活之后即可在虚拟空间内安装。
