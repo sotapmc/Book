@@ -1,6 +1,7 @@
 - **Wiki**
   - [介绍](/wiki/index.md)
   - [基本编写规范](/wiki/manual.md)
+  - [指令格式](/wiki/command-format.md)
   - [贡献指南](/wiki/contribution.md)
   - [关于城镇](/wiki/about-realms.md)
   - [贡献者](/wiki/contributors.md)
