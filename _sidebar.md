@@ -19,6 +19,7 @@
   - [介绍](/missiontap/index.md)
   - [配置文件](/missiontap/config.md)
   - [任务逻辑](/missiontap/mission.md)
+  - [刷新逻辑](/missiontap/refresh.md)
   - [任务格式](/missiontap/structure.md)
   - [指令列表](/missiontap/commands.md)
 - **Git/GitHub**

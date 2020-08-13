@@ -25,3 +25,4 @@
 - 🏃‍ [任务逻辑](/missiontap/mission.md)
 - ⌨ [指令列表](/missiontap/commands.md)
 - 📕 [任务格式](/missiontap/structure.md)
+- ♻ [刷新逻辑](/missiontap/refresh.md)
