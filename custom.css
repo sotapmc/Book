@@ -80,6 +80,10 @@ h1 a span, h2 a span, h3 a span, .pagination-item-title {
     font-weight: bolder !important;
 }
 
+h1 a span code, h2 a span code, h3 a span code {
+    font-size: inherit !important;
+}
+
 code, kbd {
     font-family: "Roboto Mono", "Cascadia Code", "SF Mono", "Consolas", "微软雅黑" !important;
 }
