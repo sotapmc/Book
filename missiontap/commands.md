@@ -9,7 +9,6 @@
 |`special`|`s`|-|打开特殊任务菜单|`special-missions` 为 `false` 时不可用|
 |`inprogress`|`i`|-|查看已接受的任务、提交任务|-|
 |`reload`|-|-|重载插件配置文件、菜单和任务|-|
-|`init`|-|-|~~初始化或更新当前配置的基本数据~~**暂不可使用**|-|
 |`enable`|-|`<对象>`|启用插件的某一功能|目前的对象只有 `special` 一个，当达到一定数目后会另写文档|
 |`disable`|-|`<对象>`|禁用插件的某一功能|-|
 |`about`|-|-|查看插件关于信息|-|
@@ -36,7 +35,6 @@
 |`inprogress`|`/mt inprogress`, `/mt i`|普通玩家|✔|
 |`special`|`/mt special`, `/mt s`|普通玩家|✔|
 |`reload`|`/mt reload`|管理员|-|
-|`init`|`/mt init`|管理员|-|
 |`enable`|`/mt enable`|管理员|-|
 |`disable`|`/mt disable`|管理员|-|
 |`all`|全部|管理员|-|
