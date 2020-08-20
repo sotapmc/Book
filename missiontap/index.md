@@ -1,6 +1,6 @@
 # 📕 MissionTap
 
-![](https://img.shields.io/badge/version-1.0-brightgreen)
+![](https://img.shields.io/badge/version-1.1-brightgreen)
 
 **MissionTap** 是一个简单的任务系统，分为多种工作模式，这些工作模式都被细化为了配置文件的项目。借助本插件，你可以
 
