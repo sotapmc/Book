@@ -10,6 +10,6 @@
 
 ## 协议
 
-![](https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png)
+![](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)
 
-源代码以 Mozilla Public License - 2.0 开源，内容以 CC-BY-NC-ND-4.0 协议开源。[了解 CC-BY-NC-ND 协议](http://creativecommons.org/licenses/by-nc-nd/4.0/)
+源代码以 Mozilla Public License 2.0 开源，内容以 CC BY-SA 4.0 协议开源。[了解 CC BY-SA 4.0 协议](http://creativecommons.org/licenses/by-sa/4.0/)
