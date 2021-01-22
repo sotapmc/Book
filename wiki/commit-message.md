@@ -61,4 +61,4 @@ doc: add description for Filters
 
 对 $t$ 值的确定，可以由以下流程图表示（`meg`、`chore` 除外）：
 
-![flow.png](https://i.loli.net/2021/01/22/e6lHVnEGiN3b2Fh.png)
+![commit-type-flowchart.png](/assets/illustrations/commit-type-flowchart.png)
