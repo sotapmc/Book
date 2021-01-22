@@ -3,6 +3,7 @@
   - [基本编写规范](/wiki/manual.md)
   - [指令格式](/wiki/command-format.md)
   - [贡献指南](/wiki/contribution.md)
+  - [提交信息规范](/wiki/commit-message.md)
 - **Monologue**
   - [介绍](/monologue/index.md)
   - [生产化部署](/monologue/production.md)
